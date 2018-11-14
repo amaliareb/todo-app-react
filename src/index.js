@@ -1,15 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import ListToDo from "./ListToDo"
 
 import "./styles.css"
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen,kmm,n!</h2>
-    </div>
-  )
+	return (
+		<div className="App">
+			<ListToDo />
+		</div>
+	)
 }
 
 const rootElement = document.getElementById("root")
